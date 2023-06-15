@@ -233,13 +233,14 @@ header.masthead h2 {
 }
 
 .portfolio-modal .portfolio-modal-dialog {
-  padding: 3rem 1rem;
+  padding: 4rem 4rem;
   min-height: calc(100vh - 2rem);
-  margin: 1rem calc(1rem - 8px);
+  margin: 4rem calc(1rem - 8px);
   position: relative;
   z-index: 2;
   -webkit-box-shadow: 0 0 3rem 1rem rgba(0, 0, 0, 0.5);
   box-shadow: 0 0 3rem 1rem rgba(0, 0, 0, 0.5);
+  /* display: block; */
 }
 
 .portfolio-modal .portfolio-modal-dialog .close-button {
