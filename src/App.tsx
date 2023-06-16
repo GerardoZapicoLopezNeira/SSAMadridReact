@@ -8,7 +8,6 @@ import logo from './img/logo2022-temp.jpg'
 import Apuntate from './components/Apuntate'
 import Avatar from './components/Avatar'
 import Footer from './components/Footer'
-import TallerPopUp from './components/TallerPopUp'
 
 function App() {
 

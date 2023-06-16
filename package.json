@@ -1,9 +1,12 @@
 {
   "name": "ssamadrid",
   "private": true,
+  "homepage": "https://gerardozapicolopezneira.github.io/SSAMadridReact/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
@@ -15,6 +18,7 @@
     "@types/owl.carousel": "^2.3.3",
     "bootstrap": "^5.2.3",
     "framer-motion": "^10.12.16",
+    "gh-pages": "^5.0.0",
     "jquery": "^3.7.0",
     "jquery.easing": "^1.4.1",
     "magnific-popup": "^1.1.0",

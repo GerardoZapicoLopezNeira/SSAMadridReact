@@ -1,4 +1,3 @@
-import React from 'react'
 const styles = {
   fontSize: "21px",
   color: "black"
@@ -22,5 +21,5 @@ export default function TallerPopUp(props:any) {
             </div>
           </div>
         </div>
-  ) : "";
+  ) : <></>;
 }

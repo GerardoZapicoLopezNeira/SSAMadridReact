@@ -1,12 +1,6 @@
 import { useState } from 'react'
 import TallerPopUp from './TallerPopUp';
 
-const styles = {
-  color: "#474747",
-  borderColor: "white",
-  backgroundColor: "transparent"
-};
-
 export default function Taller(props: any) {
 
   const [buttonPopUp1, setbuttonPopUp1] = useState(false);
